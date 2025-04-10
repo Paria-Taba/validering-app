@@ -1,0 +1,57 @@
+.form{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px 0 #5d6d7e;
+	padding: 10px;
+}
+
+.form div{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+.form div input{
+	padding: 10px;
+}
+.form div input .valid{
+	border: 2px solid green;
+}
+.invalid{
+	border: 2px solid red;
+}
+.valid{
+	 border: 2px solid green;
+}
+.form-button{
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px 0 #5d6d7e;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.form-button button{
+	width: 400px;
+	padding: 20px;
+	margin: 5px;
+	border-radius: 10px;
+	transition: all 1s;
+}
+.form-button button:hover{
+	background-color: rgb(195, 255, 195);
+}
+.error input{
+	border: 3px solid red;
+	border-radius: 10px;
+		box-shadow: 3px 3px 6px 0 #ffb7b5;
+
+
+}
+.error p{
+	color: red;
+}
+.valid input{
+border: 2px solid green;
+border-radius: 10px;
+}

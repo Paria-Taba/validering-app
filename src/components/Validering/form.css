@@ -1,0 +1,33 @@
+.form{
+	margin-top: 20px;
+	width: 50%;
+	border: 1px solid black;
+	margin-bottom: 40px;
+}
+label{
+	margin: 10px 0 10px 0;
+}
+.form button{
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	background-color: rgb(112, 242, 112);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.button-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.message-style{
+	color: red;
+}
+.invalid{
+	border: 2px solid red;
+}
+.valid{
+	border: 2px solid green;
+	background-color: rgb(223, 255, 223);
+}
